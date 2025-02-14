@@ -1,0 +1,112 @@
+*{
+    background-color: white;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    color: aliceblue;
+}
+.elt{
+    background-color: black;
+    color: aliceblue;
+    margin-right: 30px;
+    font-size: 25px;
+}
+.blank{
+    background-color: grey;
+    height: 125px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1000px;
+    font-size: 40px;
+}
+.buttons{
+    width: 1000px;
+    height: 400px;
+}
+.line{
+    display: flex;
+    height:70px;
+    width: 1000px;
+    margin-bottom: 5px;
+}
+.oper{
+    margin: 5px;
+    width:250px;
+    text-align: center;
+    background-color: white;
+    font-size: 40px;
+    border: 2px solid grey;
+}
+.num{
+    margin: 5px;
+    width:250px;
+    text-align: center;
+    background-color: white;
+    font-size: 40px;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.equal{
+    margin: 5px;
+    width:250px;
+    color: aliceblue;
+    text-align: center;
+    background-color: red;
+    font-size: 40px;
+    border: 2px solid black;
+}
+.oper:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(219, 9, 9, 0.3); 
+    border-radius: 15px; 
+    background-color:burlywood;
+    color: blue;
+}
+.num:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(21, 22, 89); 
+    border-radius: 15px; 
+    background-color:black;
+    color: white;
+    border-radius: 50%;
+}
+.num1 {
+    margin: 5px;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    background-color: white;
+    font-size: 40px;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.num2{
+    margin: 5px;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    background-color: white;
+    font-size: 40px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    
+}
+.num1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(21, 22, 89); 
+    border-radius: 15px; 
+    background-color:black;
+    color: white;
+    border-radius: 50%;
+}
+.num2:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(21, 22, 89); 
+    border-radius: 15px; 
+    background-color:black;
+    color: white;
+    border-radius: 50%;
+}

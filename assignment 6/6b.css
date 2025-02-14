@@ -1,0 +1,13 @@
+.mask1 {
+    position: sticky;
+    top: 0;
+    width: 200px; 
+    display: flex;
+    
+    
+}
+
+.mask2{
+    margin: auto;
+    position: relative;
+}
